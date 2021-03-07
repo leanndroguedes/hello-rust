@@ -1,0 +1,16 @@
+[package]
+name = "hello-rust"
+version = "0.1.0"
+authors = ["Leandro Guedes <leandroguedes@protonmail.com>"]
+edition = "2018"
+description = "A small Rust application to print a sentence with Ferris as the mascot!"
+readme = "README.md"
+homepage = "https://github.com/leanndroguedes/hello-rust"
+repository = "https://github.com/leanndroguedes/hello-rust"
+license = "MIT"
+keywords = ["cli"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ferris-says = "0.2.0"
